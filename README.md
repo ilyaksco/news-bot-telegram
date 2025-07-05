@@ -2,7 +2,6 @@
 
 ![Go Version](https://img.shields.io/badge/Go-1.21%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Built with Gemini](https://img.shields.io/badge/Built%20with-Gemini%20AI-blueviolet)
 
 An advanced, self-managing Telegram bot that automatically fetches news from various sources, summarizes it using AI (Google Gemini), and posts it to your Telegram channel. This bot is fully configurable in real-time directly from a Telegram chat interface.
 
@@ -37,7 +36,7 @@ To get this bot running, follow these steps.
 
 1.  **Clone this repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone https://github.com/ilyaksco/news-bot-telegram.git
     cd your-repo-name
     ```
 
