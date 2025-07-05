@@ -37,7 +37,7 @@ To get this bot running, follow these steps.
 1.  **Clone this repository:**
     ```sh
     git clone https://github.com/ilyaksco/news-bot-telegram.git
-    cd your-repo-name
+    cd news-bot-telegram
     ```
 
 2.  **Create your environment file from the example:**
