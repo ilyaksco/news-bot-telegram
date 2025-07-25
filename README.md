@@ -11,10 +11,9 @@ An advanced, self-managing Telegram bot that automatically fetches news from var
 
 -   **Database-Driven**: All settings and news sources are stored in a persistent SQLite database, making the bot robust and stateful.
 -   **Fully Interactive Management**: Configure every aspect of the bot directly from a Telegram chat using the `/settings` command. No more editing files and restarting!
--   **Dynamic Source Management**: Add, view, and delete news sources (both RSS and Scrape types) in real-time through an interactive menu.
+-   **Dynamic Source Management**: Add, view, and delete news sources in real-time through an interactive menu.
 -   **Role-Based Security**: A secure Superadmin/Admin system protects sensitive commands. The Superadmin (defined in `.env`) can grant or revoke admin privileges to other users via Telegram commands.
 -   **Live Component Reloading**: Changes to the AI model, prompt, or schedule interval take effect immediately without needing a bot restart.
--   **Intelligent Scraper**: Capable of fetching news from both RSS Feeds and direct web page scraping.
 -   **AI Summaries**: Leverages Google Gemini to create concise and informative news summaries.
 -   **Duplicate Prevention**: Uses the database to ensure the same news article is never posted twice.
 -   **Safe & User-Friendly**: Features input validation with re-prompt loops and requires confirmation for critical actions like deleting a source.
